@@ -1,0 +1,92 @@
+{
+  "question-bank": [
+    { "id": 1, "slug": "master-training-bank" },
+    { "id": 2, "slug": "secondery-training-bank" },
+    { "id": 3, "slug": "primary-training-bank" },
+    { "id": 4, "slug": "latest-training-bank" }
+  ],
+
+  "question-set": [
+    {
+      "title": "Question set 1",
+      "status": true,
+      "links": [
+        { "link": "/login", "text": "start", "status": true },
+        { "link": "/register", "text": "history", "status": true },
+        { "link": "/", "text": "copy link", "status": true }
+      ]
+    },
+    {
+      "title": "Question set 2",
+      "status": true,
+      "links": [
+        { "link": "/register", "text": "start", "status": true },
+        { "link": "/login", "text": "history", "status": false },
+        { "link": "/", "text": "copy link", "status": true }
+      ]
+    },
+    {
+      "title": "Question set 3",
+      "status": false,
+      "links": [
+        { "link": "/login", "text": "start", "status": true },
+        { "link": "/login", "text": "history", "status": false },
+        { "link": "/login", "text": "copy link", "status": true }
+      ]
+    },
+    {
+      "title": "Question set 4",
+      "status": true,
+      "links": [
+        { "link": "/login", "text": "start", "status": true },
+        { "link": "/register", "text": "history", "status": true },
+        { "link": "/", "text": "copy link", "status": true }
+      ]
+    },
+    {
+      "title": "Question set 5",
+      "status": true,
+      "links": [
+        { "link": "/register", "text": "start", "status": true },
+        { "link": "/login", "text": "history", "status": false },
+        { "link": "/", "text": "copy link", "status": true }
+      ]
+    },
+    {
+      "title": "Question set 6",
+      "status": false,
+      "links": [
+        { "link": "/login", "text": "start", "status": true },
+        { "link": "/login", "text": "history", "status": false },
+        { "link": "/login", "text": "copy link", "status": true }
+      ]
+    },
+    {
+      "title": "Question set 7",
+      "status": true,
+      "links": [
+        { "link": "/login", "text": "start", "status": true },
+        { "link": "/register", "text": "history", "status": true },
+        { "link": "/", "text": "copy link", "status": true }
+      ]
+    },
+    {
+      "title": "Question set 8",
+      "status": true,
+      "links": [
+        { "link": "/register", "text": "start", "status": true },
+        { "link": "/login", "text": "history", "status": false },
+        { "link": "/", "text": "copy link", "status": true }
+      ]
+    },
+    {
+      "title": "Question set 9",
+      "status": false,
+      "links": [
+        { "link": "/login", "text": "start", "status": true },
+        { "link": "/login", "text": "history", "status": false },
+        { "link": "/login", "text": "copy link", "status": true }
+      ]
+    }
+  ]
+}

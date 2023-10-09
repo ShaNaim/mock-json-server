@@ -1,0 +1,22 @@
+{
+  "name": "mock-server",
+  "version": "0.0.1",
+  "description": "a mock server using json-server. For testing API calls",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "json-server": "json-server db.json --port 3010 --delay 3000 --watch",
+    "json": "json-server db.json --port 3010 --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-pause": "^0.1.1",
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
