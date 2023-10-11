@@ -1,5 +1,6 @@
 # customs
 db-*.json
+db.*.json
 # Logs
 logs
 *.log

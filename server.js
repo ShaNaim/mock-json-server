@@ -4,7 +4,7 @@ import pause from "connect-pause";
 const server = jsonServer.create();
 server.use(jsonServer.defaults());
 
-const delay = 3000; // set to '0' for no delay.
+const delay = 300; // set to '0' for no delay.
 const port = 3010;
 
 // routes
@@ -24,6 +24,7 @@ server.use("/health", (req, res, next) =>
 );
 
 const router = jsonServer.router("db.json");
+server.use("/question-set", jsonServer.router("db.question-types.json"));
 server.use(router);
 
 server.listen(port, () => {
